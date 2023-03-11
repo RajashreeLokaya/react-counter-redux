@@ -1,0 +1,14 @@
+.label{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+.decrement,
+.increment {
+    background-color: green;
+    color: #fff;
+    @extend .label
+
+}
+
